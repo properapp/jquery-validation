@@ -1,0 +1,37 @@
+## jQuery Validation for Meteor
+
+Meteor implementation of [Validation](https://github.com/jzaefferer/jquery-validation) for jQuery.
+
+## Usage
+
+Install via [Meteorite](https://github.com/oortcloud/meteorite): 
+
+` mrt add jquery-validation `
+
+Add the "required" class to your markup:
+
+```
+<template name="exampleForm">
+
+  <form id="validation-example">
+
+    <label for="name">Name</label>
+    <input type="email" name="emailAddress" class="required">
+    
+    <label for="emailAddress">Email Address</label>
+    <input type="email" name="emailAddress" class="required email">
+ 
+  </form>
+  
+</template>
+```
+
+And add to your template's rendered function:
+
+``` 
+Template.exampleForm.rendered = function() {
+  $("#validation-example").validate(); 
+}
+```
+
+For custom validation options and configuration, check out the jQuery validation documentation: [jQuery Validation Documentation](http://jqueryvalidation.org/documentation)
