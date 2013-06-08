@@ -1,8 +1,8 @@
 {
   "name": "jquery-validation",
-  "description": "jQuery validation plugin by Jšrn Zaefferer, repackaged for Meteor.",
+  "description": "jQuery validation plugin by Jorn Zaefferer, repackaged for Meteor.",
   "homepage": "https://github.com/properapp/jquery-validation",
   "author": "Ryan Glover (http://properapp.com)",
-  "version": "0.1.0",
-  "git": "https://github.com/properapp/jquery-validation.git",
+  "version": "0.1.1",
+  "git": "https://github.com/properapp/jquery-validation.git"
 }
