@@ -15,11 +15,13 @@ Add the "required" class to your markup:
 
   <form id="validation-example">
 
-    <label for="name">Name</label>
-    <input type="email" name="emailAddress" class="required">
+    <label for="name">Name</label> <br>
+    <input type="text" name="name" class="required"> <br>
     
-    <label for="emailAddress">Email Address</label>
-    <input type="email" name="emailAddress" class="required email">
+    <label for="emailAddress">Email Address</label> <br>
+    <input type="email" name="emailAddress" class="required email"> <br>
+    
+    <input type="submit" value="Validate Form" />
  
   </form>
   
