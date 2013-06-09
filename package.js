@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "jQuery validation plugin by Jšrn Zaefferer, repackaged for Meteor."
+  summary: "jQuery validation plugin by Jorn Zaefferer, repackaged for Meteor."
 });
 
 Package.on_use(function(api){
