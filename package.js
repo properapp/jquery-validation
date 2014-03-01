@@ -5,7 +5,7 @@ Package.describe({
 Package.on_use(function(api){  
   api.use('jquery', 'client');
   api.add_files([
-    'lib/jquery-validation/jquery.validate.js',
+    'lib/jquery-validation/src/core.js',
   ], 'client');
   api.export('jqueryValidation');
 });
