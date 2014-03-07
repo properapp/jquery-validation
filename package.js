@@ -9,5 +9,4 @@ Package.on_use(function(api){
     'lib/jquery-validation/src/core.js',
     'lib/jquery-validation/src/delegate.js'
   ], 'client');
-  api.export('jqueryValidation');
 });
